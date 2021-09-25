@@ -1,0 +1,9 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ../cat/images/train/ # 训练集 <-- 更改数据集路径
+val: ../cat/images/valid/ #  验证集
+
+# number of classes 类别数
+nc: 1 # <-- 设置自己的类别数
+
+# class names 类别列表
+names: ['cat'] # <-- 设置为自己的数据集类别
